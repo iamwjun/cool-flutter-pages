@@ -18,7 +18,7 @@ class QuantumLoaderApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Quantum Sync',
+      title: 'cool_pages',
       theme: ThemeData(
         useMaterial3: true,
         brightness: Brightness.dark,

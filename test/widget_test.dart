@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_application_1/main.dart';
+import 'package:cool_pages/main.dart';
 
 void main() {
   testWidgets('renders the quantum loading experience', (

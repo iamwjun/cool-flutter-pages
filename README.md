@@ -1,4 +1,4 @@
-# flutter_application_1
+# cool_pages
 
 A new Flutter project.
 
