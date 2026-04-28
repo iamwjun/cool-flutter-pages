@@ -1,4 +1,4 @@
-# Repository Guidelines
+# Repository Guidelines2
 
 ## Project Structure & Module Organization
 This repository is a single Flutter app. The main entry point lives in `lib/main.dart`, and the current widget smoke test lives in `test/widget_test.dart`. Platform wrappers are kept in `android/`, `ios/`, `macos/`, `linux/`, `windows/`, and `web/`; only touch them when a feature needs platform-specific changes. Treat `build/` and `.dart_tool/` as generated output, not source. There is no shared `assets/` directory yet; add one only when you also register it in `pubspec.yaml`.
