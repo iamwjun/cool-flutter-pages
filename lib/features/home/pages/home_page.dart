@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:cool_pages/features/detail/pages/detail_page.dart';
+import 'package:cool_pages/features/journal_challenge/pages/journal_challenge_page.dart';
 import 'package:cool_pages/features/system_status/pages/system_status_page.dart';
 import 'package:flutter/material.dart';
 
@@ -67,6 +68,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         icon: Icons.dashboard_customize,
         highlights: const <String>['Panels', 'Metrics', 'Scaffold'],
         pageBuilder: (_) => const DetailPage(),
+      ),
+      _FeatureItem(
+        tag: '03',
+        title: 'Journal Challenge',
+        path: 'features/journal_challenge',
+        description: '根据 Shorts 里的 Journal 运动记录页面重建的移动端 UI 挑战。',
+        buttonLabel: '打开 Journal Challenge',
+        accent: const Color(0xFFF3D1A7),
+        secondary: const Color(0xFF5967F5),
+        icon: Icons.directions_walk_rounded,
+        highlights: const <String>['Journal', 'Walker', 'CustomPaint'],
+        pageBuilder: (_) => const JournalChallengePage(),
       ),
     ];
 
